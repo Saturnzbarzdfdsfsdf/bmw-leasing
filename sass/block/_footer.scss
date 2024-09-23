@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 50px;
+  background-color: $textColor;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  gap: $g200;
+  margin-bottom: $mb60;
+
+  &-list {
+   color: $textWhiteColor;
+   display: flex;
+   flex-direction: column;
+   gap: $g20;
+  }
+
+  &-title {
+    margin-bottom: $mb20;
+    font-size: $fs24;
+    font-weight: $fw700;
+    line-height: $lh29px;
+
+  }
+  
+  &-link {
+    color: $textWhiteColor;
+
+    
+  }
+}

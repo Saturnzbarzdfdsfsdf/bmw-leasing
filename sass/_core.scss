@@ -1,0 +1,48 @@
+body {
+	font-family: $fontInterRegular;
+	font-weight: $fw400;
+	// background-color: $backgroundColor;
+	font-size: $fs16;
+	line-height: $lh130;
+}
+
+.container {
+	max-width: 1220px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.main {
+	background-color: rgb(255, 255, 255);
+}
+
+.title2 {
+	color: $textColor;
+	font-size: $fs48;
+	font-weight: $fw700;
+	line-height: $lh58px;
+	text-align: center;
+}
+
+// Прижатый футер
+html,
+body {
+	height: 100%;
+
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+
+.none {
+	display: none;
+}

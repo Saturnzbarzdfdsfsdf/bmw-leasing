@@ -1,0 +1,67 @@
+.slider {
+	padding-bottom: 50px;
+	padding-top: 250px;
+
+	// Подняли контент
+		@include raiseContent;
+
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		&-title {
+			color: $textWhiteColor;
+			font-size: $fs96;
+			line-height: $lh116px;
+			font-weight: $fw700;
+			margin-bottom: $mb45;
+
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+		&-link {
+			display: inline-block;
+			background-color: $textColor;
+			color: $textWhiteColor;
+			font-size: $fs36;
+			font-weight: $fw700;
+			line-height: $lh44px;
+			text-align: center;
+			text-transform: uppercase;
+			padding: 20px 150px;
+			border-radius: 4px;
+		}
+	}
+}
+
+.swiper {
+	height: 100vh;
+	margin-bottom: $mb50;
+}
+
+.swiper-pagination-bullet {
+  width: 120px;
+  height: 3px;
+  background-color: $textColor;
+  border-radius: 0;
+  opacity: 1;
+  // space between bullet
+  margin: 0 15px !important;
+}
+.swiper-pagination-bullet-active {
+height: 6px;
+background-color: $textWhiteColor;
+opacity: 0.4;
+}
+
+.swiper-pagination {
+  // bottom indent
+  bottom: 40px !important;
+}
+

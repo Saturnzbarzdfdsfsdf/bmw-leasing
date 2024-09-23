@@ -1,0 +1,44 @@
+.why-lease {
+  margin-bottom: $mb150;
+	&__title {
+		// text-align: center;
+
+		margin-bottom: $mb50;
+	}
+}
+
+.why-lease__content {
+	display: flex;
+	gap: $g40;
+
+	&-items {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		gap: $g30;
+		width: 270px;
+	}
+}
+
+.why__lease__content-subtitle {
+	font-size: $fs24;
+	font-weight: $fw700;
+	line-height: $lh29px;
+}
+
+.why-lease__content-img {
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.img-box {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border: 1px solid blue;
+	border-radius: 50%;
+  // pointer-events: none;
+}

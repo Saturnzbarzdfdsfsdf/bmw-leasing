@@ -1,0 +1,37 @@
+.header {
+	padding-bottom: $pb45;
+	background-color: $textColor;
+}
+
+.header-main {
+	background-color: transparent;
+	// background-color: rebeccapurple;
+
+	// Подняли хедер
+	@include raiseContent;
+}
+
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.nav {
+	display: flex;
+	align-items: flex-end;
+	text-transform: uppercase;
+
+	&__list {
+		display: flex;
+		gap: $g35;
+
+		&-link {
+			// cursor: pointer;
+			color: $textWhiteColor;
+			font-weight: $fw700;
+			line-height: $lh19px;
+			cursor: pointer;
+		}
+	}
+}
