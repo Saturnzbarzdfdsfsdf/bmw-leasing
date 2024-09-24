@@ -6,9 +6,13 @@
 .header-main {
 	background-color: transparent;
 	// background-color: rebeccapurple;
-
+	
 	// Подняли хедер
-	@include raiseContent;
+	position: absolute;
+	z-index: 5;
+	left: 0;
+	right: 0;
+
 }
 
 .header__content {

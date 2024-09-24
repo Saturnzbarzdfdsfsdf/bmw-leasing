@@ -1,0 +1,38 @@
+.video {
+  position: relative;
+	text-align: center;
+  margin-bottom: $mb150;
+	&__title {
+		margin-bottom: $mb20;
+	}
+	&__subtitle {
+		font-size: $fs24;
+		font-weight: $fw700;
+		line-height: $lh29px;
+		margin-bottom: $mb45;
+	}
+}
+
+// .video__box {
+// 	position: relative;
+// }
+
+.video__box::before {
+	content: '';
+	position: absolute;
+  z-index: 10;
+	
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+	width: 100px;
+	height: 100px;
+
+	background: url('/assets/icons/video-play.svg') no-repeat center;
+	// background-color: red;
+}
+
+.video__img {
+	border-radius: 5px;
+}

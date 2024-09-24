@@ -1,0 +1,22 @@
+.important {
+  margin-bottom: $mb150;
+	&__title {
+		margin-bottom: $mb20;
+	}
+
+	&___desc {
+		max-width: 580px;
+    margin: 0 auto;
+    margin-bottom: $mb45;
+	}
+}
+
+.important__cards {
+  display: flex;
+  gap: $g40;
+}
+
+.important__card-img {
+  margin-bottom: $mb20;
+}
+
