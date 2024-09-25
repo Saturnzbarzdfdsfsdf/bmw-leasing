@@ -160,7 +160,10 @@ body {
   color: rgb(255, 255, 255);
   font-weight: 700;
   line-height: 19px;
-  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.nav__list-link:hover {
+  color: rgb(0, 102, 255);
 }
 
 .footer {
@@ -393,6 +396,182 @@ body {
 
 .important__card-img {
   margin-bottom: 20px;
+}
+
+.header-choose {
+  margin-bottom: 100px;
+}
+
+.choose-car {
+  margin-bottom: 100px;
+}
+.choose-car__title {
+  margin-bottom: 45px;
+}
+.choose-car__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 80px;
+}
+.choose-car__list-item {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.choose-car__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 40px;
+  margin-bottom: 60px;
+}
+.choose-car__grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(0, 102, 255);
+  width: 270px;
+  gap: 20px;
+}
+.choose-car__grid-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.choose-car__grid span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.details {
+  text-align: center;
+  color: rgb(0, 102, 255);
+  border-top: 1px solid rgb(0, 102, 255);
+  width: 270px;
+}
+
+.choose-car__guide {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.choose-car__guide-item {
+  max-width: 580px;
+}
+.choose-car__guide-item img {
+  margin-bottom: 30px;
+}
+.choose-car__guide-desc {
+  display: flex;
+  justify-content: space-between;
+}
+.choose-car__guide-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.choose-car__guide-more {
+  padding: 4px 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 102, 255);
+}
+
+.header-contact {
+  margin-bottom: 100px;
+}
+
+.contact__title {
+  margin-bottom: 20px;
+}
+.contact__text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__group {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.form__group-input {
+  max-width: 270px;
+  padding: 10px;
+  border: 1px solid rgb(0, 102, 255);
+}
+.form__group-input:focus {
+  outline: 1px solid rgb(0, 102, 255);
+}
+.form__textarea {
+  padding: 15px;
+  width: 532px;
+  height: 280px;
+  border: 1px solid rgb(0, 102, 255);
+  margin-bottom: 50px;
+  resize: none;
+}
+.form__textarea:focus {
+  outline: 1px solid rgb(0, 102, 255);
+}
+
+.box {
+  position: relative;
+}
+
+.placeholder {
+  position: absolute;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+  left: 15px;
+  bottom: 10px;
+}
+
+.form__group-input:focus ~ .placeholder,
+.form__group-input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-32px);
+  color: rgb(0, 102, 255);
+  opacity: 1;
+}
+
+.form__textarea:focus ~ .placeholder-textarea,
+.form__textarea:not(:placeholder-shown) ~ .placeholder-textarea {
+  transform: translateY(-32px);
+  color: rgb(0, 102, 255);
+  opacity: 1;
+}
+
+.placeholder-textarea {
+  position: absolute;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+  left: 15px;
+  bottom: 305px;
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 13px 61px;
+  background-color: rgb(21, 21, 21);
+  color: rgb(255, 255, 255);
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

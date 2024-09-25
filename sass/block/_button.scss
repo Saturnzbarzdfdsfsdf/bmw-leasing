@@ -1,0 +1,12 @@
+.button {
+	text-transform: uppercase;
+	padding: 13px 61px;
+	background-color: $textColor;
+	color: $textWhiteColor;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+	margin-bottom: $mb100;
+}

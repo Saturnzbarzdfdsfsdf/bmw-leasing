@@ -10,3 +10,9 @@
 	left: 0;
 	right: 0;
 }
+
+@mixin mediumText {
+	font-size: $fs24;
+	font-weight: $fw700;
+	line-height: $lh29px;
+}

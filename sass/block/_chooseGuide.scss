@@ -1,0 +1,29 @@
+.choose-car__guide {
+  display: flex;
+  justify-content: center;
+  gap: $g40;
+  margin-bottom: $mb60;
+ 
+
+  &-item {
+    max-width: 580px;
+    img {
+      margin-bottom: $mb30;
+    }
+  }
+
+  &-desc {
+  display: flex;
+  justify-content: space-between;
+  
+  }
+  &-text {
+    @include mediumText
+  }
+
+}
+.choose-car__guide-more {
+  padding: 4px 10px;
+  color: $textWhiteColor;
+  background-color: $accentColor;
+}

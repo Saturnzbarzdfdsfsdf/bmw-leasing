@@ -29,13 +29,16 @@
 	&__list {
 		display: flex;
 		gap: $g35;
-
+		
 		&-link {
-			// cursor: pointer;
 			color: $textWhiteColor;
 			font-weight: $fw700;
 			line-height: $lh19px;
-			cursor: pointer;
+			transition: color 0.3s ease-in-out;
 		}
+		&-link:hover {
+			color: $accentColor;
+		}
+
 	}
 }

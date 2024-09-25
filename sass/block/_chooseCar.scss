@@ -1,0 +1,55 @@
+.header-choose {
+	margin-bottom: $mb100;
+}
+.choose-car {
+  margin-bottom: $mb100;
+	&__title {
+    margin-bottom: $mb45;
+	}
+	&__list {
+    display: flex;
+		justify-content: center;
+		margin-bottom: $mb100;
+		gap: $g80;
+    
+		&-item {
+      @include mediumText
+		}
+	}
+}
+
+.choose-car__grid {
+  display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 100px 40px;
+  margin-bottom: $mb60;
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $accentColor;
+    width: 270px;
+    gap: $g20;
+  }
+
+  &-title {
+   @include mediumText
+  }
+  
+  span {
+    @include mediumText
+  }
+}
+
+
+
+.details {
+  text-align: center;
+  color: $accentColor;
+  border-top: 1px solid $accentColor;
+  width: 270px;
+}
+
+

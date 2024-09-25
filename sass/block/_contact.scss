@@ -1,0 +1,17 @@
+.header-contact {
+  margin-bottom: $mb100;
+}
+
+.contact {
+  &__title {
+    margin-bottom: $mb20;
+  }
+  
+  &__text {
+    @include mediumText;
+    text-align: center;
+    margin-bottom: $mb50;
+  }
+  
+}
+

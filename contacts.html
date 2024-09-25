@@ -11,7 +11,7 @@
 
     <div class="wrapper">
       
-      <header class="header">
+      <header class="header header-contact">
         <div class="container">
           <div class="header__content">
             <a class="logo" href="/">
@@ -21,7 +21,7 @@
             <nav class="nav">
               <ul class="nav__list">
                 <li class="nav__list-item">
-                  <a class="nav__list-link" href="#">new CARS</a>
+                  <a class="nav__list-link" href="/new-cars.html">new CARS</a>
                 </li>
                 <li class="nav__list-item">
                   <a class="nav__list-link" href="#">PRE-OWNED CARS</a>
@@ -42,7 +42,43 @@
       </header>
   
       <main class="main">
-        <h1 >main</h1>
+
+        <section class="contact">
+          <div class="container">
+
+            <h2 class="contact__title title2">Contact Us</h2>
+            <p class="contact__text">Feel free to contact us with questions, potencial partnerships or media inquiries</p>
+  
+            <form class="form" action="">
+
+              <div class="form__group">
+
+                <div class="box">
+                  <input class="form__group-input" id='name' type="text" placeholder="">
+                  <label class="placeholder" for="name">Name</label>
+                </div>
+
+                <div class="box">
+                  <input class="form__group-input" id='mail' type="text" placeholder="">
+                  <label class="placeholder" for="mail">E-mail</label>
+                </div>
+
+              </div>
+              
+              <div class="box">
+                <textarea placeholder="" id="textarea" class="form__textarea" name="" id="text"></textarea>
+                <label class="placeholder-textarea" for="textarea">Your text</label>
+              </div>
+
+            </form>
+
+            <div class="button-box">
+							<a class="button" href="#">submit</a>
+						</div>
+
+          </div>
+        </section>
+
       </main>
   
       <footer class="footer">
